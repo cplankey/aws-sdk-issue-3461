@@ -1,0 +1,484 @@
+{
+    "modules": [{
+        "id": "1300053c-a75c-462a-9ece-46b0f5c8084a",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "80329f54-d64f-4510-8eee-a935e4ae0e2c"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "Amazon Connect will now simulate rolling dice by using the Distribute randomly block,,,now rolling,,,,,,,",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 150,
+                "y": 167
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "80329f54-d64f-4510-8eee-a935e4ae0e2c",
+        "type": "PercentileBranching",
+        "branches": [{
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "3",
+            "transition": "034ceb17-23e9-4675-a437-41a89c1568e8"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "6",
+            "transition": "c9c6df6c-1fb4-459b-b84d-28f92d0c1422"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "8",
+            "transition": "6676b92a-7e0b-47a5-b55c-56d31e465218"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "11",
+            "transition": "1187f441-b61e-420e-a554-6799893e3e50"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "14",
+            "transition": "aaffb149-bd95-4a2f-92ed-12bab147442f"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "17",
+            "transition": "42520dfc-a90d-40b3-a1c6-92bc62250e24"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "14",
+            "transition": "89660d4b-56fe-4ec5-8038-97c910dff3be"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "11",
+            "transition": "1892aca2-3226-4249-aafa-fe68b8b1c2de"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "8",
+            "transition": "cc35093a-2118-4d5e-a689-2c26be2aee76"
+        }, {
+            "condition": "Evaluate",
+            "conditionType": "Equals",
+            "conditionValue": "5",
+            "transition": "b20bf80e-ea4c-4914-b4e5-f0865c0aaab8"
+        }, {
+            "conditionType": "Equals",
+            "conditionValue": "3",
+            "condition": "NoMatch",
+            "transition": "5924eb92-9d3b-4d0c-b5a6-76b589779c97"
+        }],
+        "parameters": [],
+        "metadata": {
+            "position": {
+                "x": 383,
+                "y": 337
+            },
+            "conditionMetadata": [{
+                "id": "6a5c8eab-c3b0-4515-afa8-9a1a307e133d",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "2",
+                "value": "3"
+            }, {
+                "id": "f0c3a494-4d54-4d35-be5f-183016dc2a98",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "3",
+                "value": "6"
+            }, {
+                "id": "2789b854-87f8-48cf-84a4-708d35c1d52a",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "4",
+                "value": "8"
+            }, {
+                "id": "03c2abed-62b8-4a61-965b-112a8a49b3b2",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "5",
+                "value": "11"
+            }, {
+                "id": "680f87d5-7afe-4402-b8c1-38f30a1f4bc8",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "6",
+                "value": "14"
+            }, {
+                "id": "30beeb59-b040-4993-a3e3-2564223913dc",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "7",
+                "value": "17"
+            }, {
+                "id": "73dd2d52-0d57-47d8-b515-17da5f9fb6e6",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "8",
+                "value": "14"
+            }, {
+                "id": "b384a3e7-5967-4fa4-9eef-29889b8a3c42",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "9",
+                "value": "11"
+            }, {
+                "id": "2179c9b9-321e-4ba1-8e22-00213397923f",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "10",
+                "value": "8"
+            }, {
+                "id": "b71a6b53-aa3e-4898-aaa8-79d51645a37c",
+                "percent": {
+                    "value": 1,
+                    "display": "1%"
+                },
+                "name": "11",
+                "value": "5"
+            }]
+        }
+    }, {
+        "id": "bdc8e490-d2e1-4e45-9c5f-34612f60a846",
+        "type": "Disconnect",
+        "branches": [],
+        "parameters": [],
+        "metadata": {
+            "position": {
+                "x": 1627,
+                "y": 807
+            }
+        }
+    }, {
+        "id": "be80759a-bfdb-4332-bbac-63ddd9ad4dea",
+        "type": "TransferToFlow",
+        "branches": [{
+            "condition": "Error",
+            "transition": "bdc8e490-d2e1-4e45-9c5f-34612f60a846"
+        }],
+        "parameters": [{
+            "name": "ContactFlowId",
+            "value": "arn:aws:connect:us-east-1:910997941993:instance/7396df3e-b88d-433e-8b87-3e7f3c13efec/contact-flow/75ee79a9-82b3-4bc2-b771-1f56bb4abcea"
+        }],
+        "metadata": {
+            "position": {
+                "x": 1392,
+                "y": 802
+            },
+            "useDynamic": false,
+            "ContactFlow": {
+                "id": "arn:aws:connect:us-east-1:910997941993:instance/7396df3e-b88d-433e-8b87-3e7f3c13efec/contact-flow/75ee79a9-82b3-4bc2-b771-1f56bb4abcea",
+                "text": "Sample inbound flow (first contact experience)",
+                "arn": null,
+                "metricDetail": null
+            }
+        }
+    }, {
+        "id": "034ceb17-23e9-4675-a437-41a89c1568e8",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 2!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 719,
+                "y": 12
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "c9c6df6c-1fb4-459b-b84d-28f92d0c1422",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 3!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 719,
+                "y": 162
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "6676b92a-7e0b-47a5-b55c-56d31e465218",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 4!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 720,
+                "y": 308
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "1187f441-b61e-420e-a554-6799893e3e50",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 5!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 720,
+                "y": 452
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "aaffb149-bd95-4a2f-92ed-12bab147442f",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 6!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 721,
+                "y": 593
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "42520dfc-a90d-40b3-a1c6-92bc62250e24",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 7!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 722,
+                "y": 735
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "89660d4b-56fe-4ec5-8038-97c910dff3be",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 8!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 723,
+                "y": 879
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "1892aca2-3226-4249-aafa-fe68b8b1c2de",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 9!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 723,
+                "y": 1021
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "cc35093a-2118-4d5e-a689-2c26be2aee76",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 10!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 724,
+                "y": 1163
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "b20bf80e-ea4c-4914-b4e5-f0865c0aaab8",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 11!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 725,
+                "y": 1305
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "5924eb92-9d3b-4d0c-b5a6-76b589779c97",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "You rolled a 12!",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 725,
+                "y": 1448
+            },
+            "useDynamic": false
+        }
+    }, {
+        "id": "f1bd6ea7-c8e9-4d2f-9c1e-13aab35caf77",
+        "type": "PlayAudio",
+        "branches": [{
+            "condition": "Success",
+            "transition": "be80759a-bfdb-4332-bbac-63ddd9ad4dea"
+        }],
+        "parameters": [{
+            "name": "Text",
+            "value": "Now transferring back to the main menu.",
+            "namespace": null
+        }, {
+            "name": "TextToSpeechType",
+            "value": "text"
+        }],
+        "metadata": {
+            "position": {
+                "x": 1128,
+                "y": 1518
+            },
+            "useDynamic": false
+        }
+    }],
+    "version": "1",
+    "start": "1300053c-a75c-462a-9ece-46b0f5c8084a",
+    "metadata": {
+        "entryPointPosition": {
+            "x": 17,
+            "y": 126
+        },
+        "name": "Sample AB test",
+        "description": "Performs A/B call distribution",
+        "type": "contactFlow",
+        "status": "published",
+        "hash": "ec3bfccf5ff85706d61890b102758b73e76bf63c7690025b235182717e13d935"
+    }
+}
